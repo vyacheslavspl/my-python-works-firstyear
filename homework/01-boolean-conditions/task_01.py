@@ -39,3 +39,11 @@
 #     False
 
 # Решение
+towar = int(input("Остаток на складе, шт.: "))
+price = int(input("Цена товара, руб.: "))
+money = int(input("Деньги у покупателя, руб.: "))
+
+if towar > 0 and money >= price:
+    print(True)
+else:
+    print(False)
