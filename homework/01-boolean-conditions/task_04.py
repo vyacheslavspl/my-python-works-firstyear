@@ -44,3 +44,10 @@
 #     Позвонить покупателю: False
 
 # Решение
+oplata_zakaza = input("Заказ оплачен (да/нет): ")
+Nalichie_zakaza = input("Товар есть (да/нет): ")
+Adres = input("Адрес указан (да/нет): ")
+otpravka = (oplata_zakaza == Nalichie_zakaza == Adres == "да")
+zvonok_pokipatelu = oplata_zakaza == "да" and Adres == "нет"
+print("Можно отправлять: ", otpravka)
+print("Позвонить покупателю:", zvonok_pokipatelu)
