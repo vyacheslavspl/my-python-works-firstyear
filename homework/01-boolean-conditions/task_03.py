@@ -50,3 +50,8 @@
 #     Можно на аттракцион: False
 
 # Решение
+height = int(input("Рост, см: "))
+age = int(input("Сколько вам лет: "))
+parent = input("Со взрослым (да/нет): ")
+attraction = height >= 120 and (age >=10 or parent == "да")
+print("Можно на аттракцион: ",attraction)
