@@ -43,7 +43,6 @@
 
 # Решение: исправьте программу ниже
 age = int(input("Возраст: "))
-answer = input("Опыт работы есть (да/нет): ")
-has_experience = answer = "да"
-fits = age >= 18 and <= 65 and has_experience
-print("Подходит:" fits)
+experience = input("Опыт работы есть (да/нет): ")
+kandidat = (age >= 18 and experience  == "да" and age <= 65 and experience == "да")
+print("Подходит:", kandidat)
