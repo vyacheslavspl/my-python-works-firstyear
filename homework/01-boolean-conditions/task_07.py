@@ -28,3 +28,12 @@
 #     False
 
 # Решение
+bottles = int(input("Сколько бутылок: "))
+
+boxofbottles = bottles // 6
+paddony = boxofbottles // 4
+
+otpravka = boxofbottles and paddony 
+
+print("Количество бутылок: ", bottles)
+print(bool(otpravka))
