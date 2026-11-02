@@ -49,3 +49,11 @@
 #     False
 
 # Решение
+kassa1 = input("Касса 1 открыта (да/нет): ")
+kassa2 = input("Касса 2 открыта (да/нет): ")
+kassa3 = input("Касса 3 открыта (да/нет): ")
+open_kassa1 = kassa1 == "да"
+open_kassa2 = kassa2 == "да"
+open_kassa3 = kassa3 == "да"
+print(open_kassa1 + open_kassa2 + open_kassa3 == 1)
+
