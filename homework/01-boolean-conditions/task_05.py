@@ -39,4 +39,4 @@ lesson2 = second >= 40
 lesson3 = third >= 40
 print(lesson1 + lesson2 + lesson3)
 sessia = (lesson1+lesson2+lesson3 == 3)
-print(sessia) #ДОДЕЛАТЬ
+print(sessia)
