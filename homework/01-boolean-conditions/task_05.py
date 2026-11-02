@@ -31,3 +31,12 @@
 #     Сессия закрыта: False
 
 # Решение
+first = int(input("Балл за первый экзамен: "))
+second = int(input("Балл за второй экзамен: "))
+third = int(input("Балл за третий экзамен: "))
+lesson1 = first >= 40 
+lesson2 = second >= 40
+lesson3 = third >= 40
+print(lesson1 + lesson2 + lesson3)
+sessia = (lesson1+lesson2+lesson3 == 3)
+print(sessia) #ДОДЕЛАТЬ
