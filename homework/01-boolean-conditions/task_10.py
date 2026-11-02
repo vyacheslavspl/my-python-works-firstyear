@@ -49,3 +49,13 @@
 #     Допущен: False
 
 # Решение
+posehaimosty = int(input("Посещаемость, %: "))
+laborotory = int(input("Сдано лабораторных: "))
+dolgi = int(input("Долг по оплате, руб.: "))
+posehaimosty_check = posehaimosty >= 75
+laborotory_check = laborotory >= 8
+dolgi_check = dolgi == 0
+print("Посещаемость:", posehaimosty_check)
+print("Лабораторные:", laborotory_check)
+print("Нет долга:", dolgi_check)
+print("Допущен:", posehaimosty_check and laborotory_check and dolgi_check)
