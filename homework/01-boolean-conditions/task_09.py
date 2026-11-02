@@ -41,3 +41,7 @@
 #     True
 
 # Решение
+price1 = int(input("Цена первого товара, руб.: "))
+price2 = int(input("Цена второго товара, руб.: "))
+cost_items = (price1 > 1000) + (price2 > 1000)
+print(cost_items == 1)
